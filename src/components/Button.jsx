@@ -5,7 +5,6 @@ const Button = (prop) => {
         <button className={`
             rounded-full
             bg-transparent
-            
             shadow-[-8px_-3px_8px_#152b2b,2px_1px_1px_#D6BD98]
             px-7
             py-1.5
