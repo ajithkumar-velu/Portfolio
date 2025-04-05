@@ -36,7 +36,7 @@ const Navbar = () => {
 
                 {/* Drawer - Right Side */}
                 <div
-                    className={`fixed top-0 right-0 h-full w-64 bg-custom-gradient shadow-xl transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out z-50`}
+                    className={`fixed top-0 right-0 h-full w-[80%] bg-custom-gradient shadow-xl transform ${isOpen ? 'translate-x-0' : 'translate-x-full'} transition-transform duration-300 ease-in-out z-50`}
                 >
                     <div className="p-4">
                         {/* Close Button (X icon) */}
@@ -44,13 +44,16 @@ const Navbar = () => {
                             <Button val='X' cls={"bg-btn-unique font-bold text-black py-1.5 px-3"} />
                         </div>
 
-                        <h2 className="text-2xl mb-5 text-black font-bold border-[#D6BD98] border-b pb-3">Menu</h2>
-                        <ul className="space-y-2">
-                            <Button cls={"w-full"} val={"Home"} />
-                            <Button cls={"w-full"} val={"Skils"} />
-                            <Button cls={"w-full"} val={"About"} />
-                            <Button cls={"w-full"} val={"Contact"} />
-                        </ul>
+                            <h2 className="text-2xl mb-5 text-[#D6BD98] font-bold border-[#D6BD98] border-b pb-3">Menu</h2>
+                        <div className='sm:px-10' >
+                            <ul className="space-y-2">
+                            <Button cls={"bg-btn-unique font-bold text-black w-full"} val={"Resume"} btn={<Download />} />
+                                <Button cls={"w-full"} val={"Home"} />
+                                <Button cls={"w-full"} val={"Skils"} />
+                                <Button cls={"w-full"} val={"About"} />
+                                <Button cls={"w-full"} val={"Contact"} />
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
