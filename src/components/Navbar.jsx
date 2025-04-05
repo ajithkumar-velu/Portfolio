@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from './Button'
-import { Download } from 'lucide-react'
+import { AlignJustify, Download } from 'lucide-react'
 
 const Navbar = () => {
     return (
@@ -11,7 +11,7 @@ const Navbar = () => {
             </div>
 
             {/* Center Section */}
-            <div className='flex gap-3' >
+            <div className='md:flex gap-3 hidden' >
                 <Button val={"Home"} />
                 <Button val={"Skils"} />
                 <Button val={"About"} />
@@ -19,9 +19,11 @@ const Navbar = () => {
             </div>
 
             {/* Right Section */}
-            <div >
-                
-                <Button cls={"bg-btn-unique font-bold text-black "} val={"Resume"} btn={<Download />} />
+            <div className='md:flex hidden' >
+                <Button cls={"bg-btn-unique font-bold text-black"} val={"Resume"} btn={<Download />} />
+            </div>
+            <div className='md:hidden' >
+                <Button cls={"bg-btn-unique font-bold text-black"} btn={<AlignJustify />} />
             </div>
         </div>
     )

@@ -6,16 +6,16 @@ const Button = (prop) => {
             rounded-full
             bg-transparent
             
-            shadow-[-8px_-3px_10px_#152b2b,2px_1px_1px_#D6BD98]
-            px-8
-            py-2
+            shadow-[-8px_-3px_8px_#152b2b,2px_1px_1px_#D6BD98]
+            px-7
+            py-1.5
             border-none
             text-white
             cursor-pointer
             transition-all
             duration-100
             ease-linear
-            active:shadow-[-5px_-1px_7px_#152b2b,2px_1px_1px_#D6BD98]
+            active:shadow-[-5px_-1px_7px_#152b2b]
             active:translate-x-[1%]
             active:translate-y-[1%]
             w-fit
