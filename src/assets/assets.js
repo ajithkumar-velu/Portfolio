@@ -3,6 +3,7 @@ import hero2 from './7504549_3675489.jpg'
 import hero3 from './5798429_2968383.jpg'
 import hero4 from './development-concept-illustration.png'
 import hero5 from './13247275_5180200-removebg-preview (1).png'
+import me from './IMG_20250315_175529.jpg'
 export const images = {
 
     hero,
@@ -10,4 +11,5 @@ export const images = {
     hero3,
     hero4,
     hero5,
+    me,
 }
