@@ -14,7 +14,7 @@ const Skills = () => {
           {
             skils.map((item, idx) => (
               <div className='mb-12 flex items-center justify-center' key={idx} >
-                <Button btn={item.name} cls={"rounded-[0px] flex flex-col text-c1 font-semibold"} val={<img src={item.img} alt="" />} />
+                <Button btn={item.name} cls={"rounded-none flex flex-col text-c1 font-semibold"} val={<img src={item.img} alt="" />} />
                 {/* <p>{item.name}</p> */}
               </div>
             ))

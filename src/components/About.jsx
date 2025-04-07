@@ -1,5 +1,4 @@
 import React from 'react'
-import { images } from '../assets/assets'
 import Title from './Title'
 
 const About = () => {
