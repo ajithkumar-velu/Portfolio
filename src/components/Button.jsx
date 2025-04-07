@@ -9,7 +9,6 @@ const Button = (prop) => {
             px-7
             py-1.5
             border-none
-   
             cursor-pointer
             transition-all
             duration-100
