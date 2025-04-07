@@ -12,7 +12,7 @@ const Navbar = () => {
             </div>
 
             {/* Center Section */}
-            <div className='md:flex gap-3 hidden' >
+            <div className='md:flex gap-3 hidden text-white' >
                 <Button val={"Home"} />
                 <Button val={"Skils"} />
                 <Button val={"About"} />
@@ -44,10 +44,10 @@ const Navbar = () => {
                             <Button val='X' cls={"bg-btn-unique font-bold text-[#000000] py-1.5 px-3"} />
                         </div>
 
-                            <h2 className="text-2xl mb-5 text-[#D6BD98] font-bold border-[#D6BD98] border-b pb-3">Menu</h2>
+                        <h2 className="text-2xl mb-5 text-[#D6BD98] font-bold border-[#D6BD98] border-b pb-3">Menu</h2>
                         <div className='sm:px-10' >
-                            <ul className="space-y-2">
-                            <Button cls={"bg-btn-unique font-bold text-[#000000] w-full"} val={"Resume"} btn={<Download />} />
+                            <ul className="space-y-2 text-white">
+                                <Button cls={"bg-btn-unique font-bold text-[#000000] w-full"} val={"Resume"} btn={<Download />} />
                                 <Button cls={"w-full"} val={"Home"} />
                                 <Button cls={"w-full"} val={"Skils"} />
                                 <Button cls={"w-full"} val={"About"} />
