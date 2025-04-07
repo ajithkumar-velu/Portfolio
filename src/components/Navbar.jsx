@@ -5,10 +5,10 @@ import { AlignJustify, Download } from 'lucide-react'
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <div className='flex justify-between border-[#D6BD98] border-b px-5 py-3' >
+        <div className='flex justify-between border-[#D6BD98] border-b px-5 py-3 fixed top-0 left-0 w-full z-50 bg-custom-gradient' >
             {/* Left Section */}
             <div>
-                <Button val="Portfolio" cls="bg-btn-unique text-black font-bold" />
+                <Button val="Portfolio" cls="bg-btn-unique text-[#000000] font-bold" />
             </div>
 
             {/* Center Section */}
@@ -21,10 +21,10 @@ const Navbar = () => {
 
             {/* Right Section */}
             <div className='md:flex hidden' >
-                <Button cls={"bg-btn-unique font-bold text-black"} val={"Resume"} btn={<Download />} />
+                <Button cls={"bg-btn-unique font-bold text-[#000000]"} val={"Resume"} btn={<Download />} />
             </div>
             <div className='md:hidden relative' >
-                <Button cls={"bg-btn-unique font-bold text-black py-1.5 px-1.5"} btn={<AlignJustify onClick={() => setIsOpen(!isOpen)} />} />
+                <Button cls={"bg-btn-unique font-bold text-[#000000] py-1.5 px-1.5"} btn={<AlignJustify onClick={() => setIsOpen(!isOpen)} />} />
 
                 {/* Overlay */}
                 {isOpen && (
@@ -41,13 +41,13 @@ const Navbar = () => {
                     <div className="p-4">
                         {/* Close Button (X icon) */}
                         <div onClick={() => setIsOpen(false)} className="absolute top-2 right-3.5 p-1 text-gray-500 hover:text-gray-700">
-                            <Button val='X' cls={"bg-btn-unique font-bold text-black py-1.5 px-3"} />
+                            <Button val='X' cls={"bg-btn-unique font-bold text-[#000000] py-1.5 px-3"} />
                         </div>
 
                             <h2 className="text-2xl mb-5 text-[#D6BD98] font-bold border-[#D6BD98] border-b pb-3">Menu</h2>
                         <div className='sm:px-10' >
                             <ul className="space-y-2">
-                            <Button cls={"bg-btn-unique font-bold text-black w-full"} val={"Resume"} btn={<Download />} />
+                            <Button cls={"bg-btn-unique font-bold text-[#000000] w-full"} val={"Resume"} btn={<Download />} />
                                 <Button cls={"w-full"} val={"Home"} />
                                 <Button cls={"w-full"} val={"Skils"} />
                                 <Button cls={"w-full"} val={"About"} />
