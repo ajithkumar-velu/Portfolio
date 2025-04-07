@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className='md:flex gap-3 hidden text-white' >
                 <a href="#home"><Button val={"Home"}  /></a>
                 <a href="#about"><Button val={"About"} /></a>
-                <a href="#skils"><Button val={"Skils"} /></a>
+                <a href="#skills"><Button val={"Skils"} /></a>
                 <a href=""><Button val={"Contact"} /></a>
             </div>
 
@@ -50,7 +50,7 @@ const Navbar = () => {
                                 <a onClick={() => setIsOpen(false)} href=''><Button cls={"bg-btn-unique font-bold text-[#000000] w-full"} val={"Resume"} btn={<Download />} /></a>
                                 <a onClick={() => setIsOpen(false)} href='#home'><Button cls={"w-full"} val={"Home"} /></a>
                                 <a onClick={() => setIsOpen(false)} href='#about'><Button cls={"w-full"} val={"About"} /></a>
-                                <a onClick={() => setIsOpen(false)} href='#skils'><Button cls={"w-full"} val={"Skils"} /></a>
+                                <a onClick={() => setIsOpen(false)} href='#skills'><Button cls={"w-full"} val={"Skils"} /></a>
                                 <a onClick={() => setIsOpen(false)} href='#contact'><Button cls={"w-full"} val={"Contact"} /></a>
                             </ul>
                         </div>
