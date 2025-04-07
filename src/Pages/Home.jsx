@@ -5,10 +5,12 @@ import About from '../components/About'
 
 const Home = () => {
   return (
-    <div>
+    <div id='home' className='' >
+
       <Navbar />
       <Hero />
-      {/* <About /> */}
+      <div  className='w-6' ></div>
+      <About />
     </div>
   )
 }

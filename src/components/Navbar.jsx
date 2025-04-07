@@ -13,10 +13,10 @@ const Navbar = () => {
 
             {/* Center Section */}
             <div className='md:flex gap-3 hidden text-white' >
-                <Button val={"Home"} />
-                <Button val={"Skils"} />
-                <Button val={"About"} />
-                <Button val={"Contact"} />
+                <a href="#home"><Button val={"Home"}  /></a>
+                <a href="#about"><Button val={"About"} /></a>
+                <a href="#skils"><Button val={"Skils"} /></a>
+                <a href=""><Button val={"Contact"} /></a>
             </div>
 
             {/* Right Section */}
@@ -47,11 +47,11 @@ const Navbar = () => {
                         <h2 className="text-2xl mb-5 text-[#D6BD98] font-bold border-[#D6BD98] border-b pb-3">Menu</h2>
                         <div className='sm:px-10' >
                             <ul className="space-y-2 text-white">
-                                <Button cls={"bg-btn-unique font-bold text-[#000000] w-full"} val={"Resume"} btn={<Download />} />
-                                <Button cls={"w-full"} val={"Home"} />
-                                <Button cls={"w-full"} val={"Skils"} />
-                                <Button cls={"w-full"} val={"About"} />
-                                <Button cls={"w-full"} val={"Contact"} />
+                                <a onClick={() => setIsOpen(false)} href=''><Button cls={"bg-btn-unique font-bold text-[#000000] w-full"} val={"Resume"} btn={<Download />} /></a>
+                                <a onClick={() => setIsOpen(false)} href='#home'><Button cls={"w-full"} val={"Home"} /></a>
+                                <a onClick={() => setIsOpen(false)} href='#about'><Button cls={"w-full"} val={"About"} /></a>
+                                <a onClick={() => setIsOpen(false)} href='#skils'><Button cls={"w-full"} val={"Skils"} /></a>
+                                <a onClick={() => setIsOpen(false)} href='#contact'><Button cls={"w-full"} val={"Contact"} /></a>
                             </ul>
                         </div>
                     </div>
