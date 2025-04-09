@@ -4,7 +4,7 @@ import Title from './Title'
 
 const Contact = () => {
     return (
-        <div id='contact' className='md:pb-44 p-5 pt-12' >
+        <div id='contact' className='md:pb-40 p-5 pt-12' >
             <Title val='CONTACT ME' />
             <div className='pt-24 pb-20 flex items-center justify-center max-w-lg lg:max-w-xl w-full m-auto' >
                 <form className='gap-7 flex flex-col w-full ' >
