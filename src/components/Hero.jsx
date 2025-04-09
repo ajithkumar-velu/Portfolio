@@ -15,7 +15,7 @@ const Hero = () => {
                     <p className='font-bold text-[#1a3636] sm:text-[23px] ' >Aspiring Software Developer | MERN Stack Developer | Problem Solver</p>
                     <p className='lg:w-4/5' >Welcome to my portfolio! I'm a passionate full-stack developer skilled in the MERN stack (MongoDB, Express.js, React, Node.js). I love building real-world web applications, solving coding challenges, and constantly improving my development skills. I enjoy turning complex problems into clean, efficient solutions. I'm always eager to learn new technologies and contribute to impactful projects.</p>
                 </div>
-                <Links />
+                <Links cls="m-auto" />
                 <div className=' flex gap-10 mt-4 m-auto xl:m-0 md:mt-4' >
                     <a className='hover:scale-[103%] transition-all duration-300' href='#contact'><Button cls={"shadow-[-4px_-2px_10px_#000000,2.5px_1.5px_1px_#152b2b] px-10 py-3 bg-btn-unique font-semibold"} val={"Contact Me"} /></a>
                     <a className='hover:scale-[103%] transition-all duration-300' href="./pro1 (7).pdf" download={true}><Button cls={"bg-btn-unique font-bold text-[#000000] px-10 py-3"} val={"Resume"} btn={<Download />} /></a>
