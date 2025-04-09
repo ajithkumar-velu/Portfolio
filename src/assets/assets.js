@@ -12,12 +12,18 @@ import mongoDbIcon from './icons8-mongodb-96.png'
 import tailwindcssIcon from './icons8-tailwind-css-96.png'
 import gitIcon from './icons8-git-96.png'
 import pythonIcon from './icons8-python-96.png'
+import githubIcon from './icons8-github-64.png'
+import linkedInIcon from './icons8-linkedin-96.png'
+import leetcodeIcon from './icons8-leetcode-96.png'
 export const images = {
 
     hero2,
     hero3,
     hero4,
     hero5,
+    githubIcon,
+    linkedInIcon,
+    leetcodeIcon
 }
 export const skils =[
 
@@ -32,3 +38,8 @@ export const skils =[
     {name: "Python", img: pythonIcon},
     {name: "Python", img: pythonIcon},
 ]   
+export const links = {
+    github: "https://github.com/ajithkumar-velu",
+    linkedIn: "https://www.linkedin.com/in/ajithkumarv1",
+    leetcode: "https://leetcode.com/u/ajithajk46/"
+}
