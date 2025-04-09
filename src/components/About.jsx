@@ -3,7 +3,7 @@ import Title from './Title'
 
 const About = () => {
     return (
-        <div id='about' className='p-5 pt-20' >
+        <div id='about' className='p-5 pt-12' >
             <Title val={"ABOUT ME"} />
 
 
