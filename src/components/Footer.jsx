@@ -8,6 +8,7 @@ const Footer = () => {
             </div>  
             <p className='text-c1 sm:text-left m-auto' >&copy; 2025 AJITH KUMAR V. All rights reserved.</p>
             <Links cls="hidden sm:flex" />
+            
         </div>
     )
 }
