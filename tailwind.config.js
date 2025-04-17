@@ -11,12 +11,28 @@ export default {
         'btn-unique': 'linear-gradient(135deg,#f8b400,#faf5e4)',
         'drawer': 'linear-gradient(135deg,#385170,#9fd3c7)',
         "c1": "#D6BD98",
-        
+
       },
       colors: {
         "c1": "#D6BD98"
       }
     },
   },
-  plugins: [],
+  plugins: [
+
+    function ({ addUtilities }) {
+      addUtilities({
+        '.perspective-500': {
+          perspective: '1500px',
+        },
+        '.preserve-3d': {
+          transformStyle: 'preserve-3d',
+        },
+        '.transform-3d': {
+          transform: 'scaleX(1.2) rotateY(15deg)',
+        },
+        
+      });
+    },
+  ],
 }

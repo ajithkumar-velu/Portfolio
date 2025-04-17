@@ -15,6 +15,12 @@ import pythonIcon from './icons8-python-96.png'
 import githubIcon from './icons8-github-64.png'
 import linkedInIcon from './icons8-linkedin-96.png'
 import leetcodeIcon from './icons8-leetcode-96.png'
+// import s_media_tamplate from './Picsart_25-04-10_19-31-44-830.jpg'
+import s_media_tamplate from './s_media_tamplate.png'
+// import farmRent_tamplate from './13247275_5180200-removebg-preview.png'
+import farmRent_tamplate from './farmRent_tamplate.png'
+import view from './icons8-view-96.png'
+import feedback_tamplate from './Feedback.png'
 export const images = {
 
     hero2,
@@ -23,23 +29,59 @@ export const images = {
     hero5,
     githubIcon,
     linkedInIcon,
-    leetcodeIcon
+    leetcodeIcon,
+    s_media_tamplate,
+    farmRent_tamplate,
+    view
 }
-export const skils =[
+export const skils = [
 
-    {name: "Javascript", img: JSIcon},
-    {name: "React", img: reactIcon},
-    {name: "Node.js", img: nodeJSIcon},
-    {name: "Express.js", img: expressJsIcon},
-    {name: "PostgreSQL", img: postgreSQLIcon},
-    {name: "MongoDB", img: mongoDbIcon},
-    {name: "Tailwindcss", img: tailwindcssIcon},
-    {name: "Git", img: gitIcon},
-    {name: "Python", img: pythonIcon},
-    {name: "Python", img: pythonIcon},
-]   
+    { name: "Javascript", img: JSIcon },
+    { name: "React", img: reactIcon },
+    { name: "Node.js", img: nodeJSIcon },
+    { name: "Express.js", img: expressJsIcon },
+    { name: "PostgreSQL", img: postgreSQLIcon },
+    { name: "MongoDB", img: mongoDbIcon },
+    { name: "Tailwindcss", img: tailwindcssIcon },
+    { name: "Git", img: gitIcon },
+    { name: "Python", img: pythonIcon },
+    { name: "Python", img: pythonIcon },
+]
 export const links = {
     github: "https://github.com/ajithkumar-velu",
     linkedIn: "https://www.linkedin.com/in/ajithkumarv1",
     leetcode: "https://leetcode.com/u/ajithajk46/"
 }
+export const projects = [
+    {
+        name: "S-Media",
+        image: s_media_tamplate,
+        content: "S-Media is a modern MERN-based platform for sharing posts, building profiles, and social networking.",
+        tools: ["React", "Node.js", "Express.js", "MongoDb", "Tailwindcss", "Daisyui"],
+        links: {
+            github: "https://github.com/ajithkumar-velu/S-Media",
+            live: "https://s-media-frontend.onrender.com/"
+        }
+    },
+
+    {
+        name: "Farm-Rent",
+        image: farmRent_tamplate,
+        content: "Farm-Rent is a web application for farmers to rent out their machines and equipment",
+        tools: ["React", "Node.js", "Express.js", "MongoDB", "Tailwindcss", "Daisyui"],
+        links: {
+            github: "https://github.com/ajithkumar-velu/farmRent",
+            live: "https://farm-rent-frontend.vercel.app/"
+        }
+    },
+    {
+        name: "FeedBack-Dashboard",
+        image: feedback_tamplate,
+        content: "Feedback dashboard using MERN stack to collect, display, and manage user feedback in real-time efficiently.",
+        tools: ["React", "Node.js", "Express.js", "MongoDB", "Tailwindcss", "Chart.js"],
+        links: {
+            github: "https://github.com/ajithkumar-velu/FeedbackTask",
+            live: "https://feedback-task-dashbord.vercel.app/"
+        }
+    },
+]
