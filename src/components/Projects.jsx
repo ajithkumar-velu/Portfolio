@@ -6,7 +6,7 @@ import Links from './Links'
 
 const Projects = () => {
   return (
-    <div id="projects" className='p-5  m-auto' >
+    <div id="projects" className='p-5 pt-12 m-auto' >
       <Title val={"PROJECTS"} />
       <div className='pt-10 w-full cursor-pointer flex flex-col items-center justify-center md:grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 mt-10'>
         {projects.map((pro, idx) => (
