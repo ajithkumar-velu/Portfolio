@@ -20,6 +20,7 @@ import s_media_tamplate from './s_media_tamplate.png'
 // import farmRent_tamplate from './13247275_5180200-removebg-preview.png'
 import farmRent_tamplate from './farmRent_tamplate.png'
 import view from './icons8-view-96.png'
+import feedback_tamplate from './Feedback.png'
 export const images = {
 
     hero2,
@@ -71,6 +72,16 @@ export const projects = [
         links: {
             github: "https://github.com/ajithkumar-velu/farmRent",
             live: "https://farm-rent-frontend.vercel.app/"
+        }
+    },
+    {
+        name: "FeedBack-Dashboard",
+        image: feedback_tamplate,
+        content: "Feedback dashboard using MERN stack to collect, display, and manage user feedback in real-time efficiently.",
+        tools: ["React", "Node.js", "Express.js", "MongoDB", "Tailwindcss", "Chart.js"],
+        links: {
+            github: "https://github.com/ajithkumar-velu/FeedbackTask",
+            live: "https://feedback-task-dashbord.vercel.app/"
         }
     },
 ]
