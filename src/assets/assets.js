@@ -47,7 +47,7 @@ export const skils = [
     { name: "Tailwindcss", img: tailwindcssIcon },
     { name: "Git", img: gitIcon },
     { name: "Python", img: pythonIcon },
-    { name: "Python", img: pythonIcon },
+    // { name: "Python", img: pythonIcon },
 ]
 export const links = {
     github: "https://github.com/ajithkumar-velu",
