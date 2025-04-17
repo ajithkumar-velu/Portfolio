@@ -62,7 +62,7 @@ export const projects = [
         tools: ["React", "Node.js", "Express.js", "MongoDB", "Tailwindcss", "Daisyui"],
         links: {
             github: "https://github.com/ajithkumar-velu/CHAT_APP",
-            live: "http://localhost:5174/Portfolio"
+            live: "https://chat-app-frontend-qss7.onrender.com"
         }
     },
     {
