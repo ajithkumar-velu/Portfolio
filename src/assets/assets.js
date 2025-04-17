@@ -21,6 +21,8 @@ import s_media_tamplate from './s_media_tamplate.png'
 import farmRent_tamplate from './farmRent_tamplate.png'
 import view from './icons8-view-96.png'
 import feedback_tamplate from './Feedback.png'
+import todo_template from './todo.png'
+import chat_template from './Chatapp.png'
 export const images = {
 
     hero2,
@@ -54,6 +56,16 @@ export const links = {
 }
 export const projects = [
     {
+        name: "Chat App (Upcomming)",
+        image: chat_template,
+        content: "A real-time chat application built with MERN stack, TailwindCSS, and DaisyUI for fast, stylish, interactive messaging.",
+        tools: ["React", "Node.js", "Express.js", "MongoDB", "Tailwindcss", "Daisyui"],
+        links: {
+            github: "https://github.com/ajithkumar-velu/CHAT_APP",
+            live: "http://localhost:5174/Portfolio"
+        }
+    },
+    {
         name: "S-Media",
         image: s_media_tamplate,
         content: "S-Media is a modern MERN-based platform for sharing posts, building profiles, and social networking.",
@@ -84,4 +96,14 @@ export const projects = [
             live: "https://feedback-task-dashbord.vercel.app/"
         }
     },
+    // {
+    //     name: "Todo (Frontend)",
+    //     image: todo_template,
+    //     content: "A simple and responsive To-Do application built with React and TailwindCSS for managing daily tasks efficiently",
+    //     tools: ["React", "Tailwindcss"],
+    //     links: {
+    //         github: "https://github.com/ajithkumar-velu/ReacrLearn/tree/master/Todo%20List",
+    //         live: "https://reacrlearn.onrender.com/"
+    //     }
+    // },
 ]
