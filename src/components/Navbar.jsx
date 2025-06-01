@@ -22,11 +22,7 @@ const Navbar = () => {
 
             {/* Right Section */}
             <div className='md:flex hidden' >
-<<<<<<< HEAD
                 <a href="AJITH_KUMAR_V.pdf" download={true}><Button cls={"bg-btn-unique font-bold text-[#000000]"} val={"Resume"} btn={<Download />} /></a>
-=======
-                <a href="./pro1 (10).pdf" download={true}><Button cls={"bg-btn-unique font-bold text-[#000000]"} val={"Resume"} btn={<Download />} /></a>
->>>>>>> 850f9f249b8c9dee4d30ec9c9e9601b55af7a270
             </div>
             <div className='md:hidden relative' >
                 <Button cls={"bg-btn-unique font-bold text-[#000000] py-1.5 px-1.5"} btn={<AlignJustify onClick={() => setIsOpen(!isOpen)} />} />
@@ -52,11 +48,7 @@ const Navbar = () => {
                         <h2 className="text-2xl mb-5 text-[#D6BD98] font-bold border-[#D6BD98] border-b pb-3">Menu</h2>
                         <div className='sm:px-10' >
                             <ul className="space-y-2 text-white flex flex-col gap-2">
-<<<<<<< HEAD
                                 <a href="AJITH_KUMAR_V.pdf" download={true}  onClick={() => setIsOpen(false)} ><Button cls={"bg-btn-unique font-bold text-[#000000] w-full"} val={"Resume"} btn={<Download />} /></a>
-=======
-                                <a href="./pro1 (10).pdf" download={true}  onClick={() => setIsOpen(false)} ><Button cls={"bg-btn-unique font-bold text-[#000000] w-full"} val={"Resume"} btn={<Download />} /></a>
->>>>>>> 850f9f249b8c9dee4d30ec9c9e9601b55af7a270
                                 <a onClick={() => setIsOpen(false)} href='#home'><Button cls={"w-full"} val={"Home"} /></a>
                                 <a onClick={() => setIsOpen(false)} href='#about'><Button cls={"w-full"} val={"About"} /></a>
                                 <a onClick={() => setIsOpen(false)} href='#skills'><Button cls={"w-full"} val={"Skills"} /></a>
