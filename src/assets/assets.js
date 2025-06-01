@@ -56,7 +56,7 @@ export const links = {
 }
 export const projects = [
     {
-        name: "Chat App (Upcomming)",
+        name: "Chat App",
         image: chat_template,
         content: "A real-time chat application built with MERN stack, TailwindCSS, and DaisyUI for fast, stylish, interactive messaging.",
         tools: ["React", "Node.js", "Express.js", "MongoDB", "Tailwindcss", "Daisyui"],

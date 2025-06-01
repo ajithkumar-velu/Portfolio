@@ -8,7 +8,7 @@ export default {
     extend: {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(135deg, #1a3636, #40534cec)',
-        'btn-unique': ' ',
+        'btn-unique': 'linear-gradient(135deg,#f8b400,#faf5e4)',
         'drawer': 'linear-gradient(135deg,#385170,#9fd3c7)',
         "c1": "#D6BD98",
 
