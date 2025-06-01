@@ -18,7 +18,7 @@ const Hero = () => {
                 <Links cls="m-auto" />
                 <div className=' flex gap-10 mt-4 m-auto xl:m-0 md:mt-4' >
                     <a className='hover:scale-[103%] transition-all duration-300' href='#contact'><Button cls={"shadow-[-4px_-2px_10px_#000000,2.5px_1.5px_1px_#152b2b] px-10 py-3 bg-btn-unique font-semibold"} val={"Contact Me"} /></a>
-                    <a className='hover:scale-[103%] transition-all duration-300' href="./pro1 (7).pdf" download={true}><Button cls={"bg-btn-unique font-bold text-[#000000] px-10 py-3"} val={"Resume"} btn={<Download />} /></a>
+                    <a className='hover:scale-[103%] transition-all duration-300' href="AJITH_KUMAR_V.pdf" download={true}><Button cls={"bg-btn-unique font-bold text-[#000000] px-10 py-3"} val={"Resume"} btn={<Download />} /></a>
                 </div>
             </div>
             <div className='max-w-[800px] overflow-hidden flex-1' >
